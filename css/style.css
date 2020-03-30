@@ -1,0 +1,243 @@
+/* general rules start here */
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #fff;
+}
+.container {
+  width: 164vh;
+  margin: auto;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+/* general rules end here */
+
+/* Header start here */
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+}
+header .logo {
+  float: left;
+}
+header .logo p {
+  float: right;
+  margin-left: 10px;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  width: 10vh;
+  display: inline-block;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+}
+/* Header end here */
+
+/* Main start here */
+main {
+  height: 95vh;
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main {
+  float: left;
+  padding-top: 20vh;
+}
+main p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0px;
+  padding-left: 15vh;
+}
+main h1 {
+  font-size: 2.7em;
+  margin: 0px;
+}
+main span {
+  display: block;
+  font-size: 2.2em;
+  font-style: italic;
+  padding-left: 6vh;
+}
+main button {
+  background-color: #fff;
+  border: none;
+  border-radius: 2vh;
+  padding: 1.5vh 3vh;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-left: 10vh;
+  margin-top: 2vh;
+}
+main button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 1vh 2vh rgb(0,0,0,0.8);
+}
+main button a {
+  color: #131313;
+  text-decoration: none;
+  font-weight: bold;
+}
+main img {
+  float: right;
+}
+/* Main end here */
+
+/* About start here */
+#about {
+  height: 85vh;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about img {
+  float: left;
+}
+#about .info {
+  height: 52vh;
+  width: 72.5vh;
+  float: right;
+}
+#about .info p {
+  padding-bottom: 3vh;
+}
+#about .info button {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 1.5vh 3vh;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+#about .info button:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 1vh 2vh rgb(0,0,0,0.8);
+}
+#about .info button a {
+  color: #131313;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* About end here */
+
+/* Services start here */
+#services {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#services h2 {
+  margin-top: 7.5vh;
+}
+#services .services {
+  margin: 5vh;
+  height: 25vh;
+  width: 25vh;
+  display: inline-block;
+}
+#services .services i {
+  font-size: 2.5em;
+}
+/* Services end here */
+
+/* Portfolio start here */
+#portfolio {
+  height: 110vh;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#portfolio .portfolio {
+  margin-right: 20vh;
+  margin-bottom: 15vh;
+  height: 25vh;
+  width: 25vh;
+  display: inline-block;
+  position: relative;
+}
+#portfolio .portfolio img {
+  opacity: 0.8;
+}
+#portfolio .portfolio img:hover {
+  transform: scale(1.3,1.3);
+  transition: all 0.3s ease-in-out;
+}
+#portfolio .portfolio h3, #portfolio .portfolio p {
+  position: absolute;
+  right: 0vh;
+  bottom: 3vh;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 2em;
+}
+#portfolio .portfolio p {
+  right: -2vh;
+  bottom: 0vh;
+  font-size: 1.5em;
+}
+/* Portfolio end here */
+
+/* Contact start here */
+#contact-me {
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#contact-me .contact h2 {
+  margin-top: 7.5vh;
+}
+#contact-me .contact {
+  margin: 2vh;
+  height: 25vh;
+  width: 25vh;
+  display: inline-block;
+}
+#contact-me .contact i {
+  font-size: 2.5em;
+}
+#contact-me .social-media {
+  padding-bottom: 5vh;
+  margin-top: -5vh;
+}
+#contact-me .social-media a i {
+  font-size: 1.5em;
+  padding-right: 0.5vh;
+}
+/* Contact start here */
+
+/* Footer start here */
+footer {
+  height: 10vh;
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+/* Footer end here */
